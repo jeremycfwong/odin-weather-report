@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    background-color: rgb(17, 17, 17);
+    color: aliceblue;
+}
+
+#weather-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 5rem;
+    align-self: center;
+}
+
+.weather-box{
+    width: 90%;
+    border-radius: 1rem;
+    background-color: rgb(32, 29, 29);
+}
+
+    .temp, .desc, .date{
+        margin: 1rem;
+        color: rgb(235, 223, 223);
+    }
+    
+input {
+    border: none;
+    padding: .25rem;
+    background-color: grey;
+    border-radius: 4px;
+    color: rgb(230, 226, 226);
+}
+
+button {
+    background-color: black;
+    border:1px rgba(228, 213, 213, 0.815) solid;
+    color: rgba(228, 213, 213, 0.815);
+    padding: .45rem;
+    border-radius: .45rem;
+}
+
+button:hover{
+    background-color: rgba(228, 213, 213);
+}
